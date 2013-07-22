@@ -1,22 +1,28 @@
-"""
-Pig Latin - Pig Latin is a game of alterations played
-on the English language game. To create the Pig Latin
-form of an English word the initial consonant sound is
-transposed to the end of the word and an ay is affixed
-(Ex.: "banana" would yield anana-bay). Read Wikipedia
-for more information on rules.
-"""
+#pig latin
 
-word = raw_input('What\'s your word? ').lower()
-vowels = 'aeiou'
+original = raw_input("Please input some text: ")
 
-pig = 'ay'
+split_text = original.split()
+pig_latin_list = []
+vowels = "aieuo"
 
-first = word[0]
+def pigify():
+	for i in split_text:
+		first_letter = i[0]
+		rest_letters = i[1:len(i)+1:1]
+		#If word starts with a vowel, leave it alone and add -ay
+		if first_letter in vowels:
+			pig_latin_list.append( i + '-ay')
+		else:
+			pig_latin_list.append(rest_letters + '-' + first_letter + 'ay')
 
-if first in vowels:
-    new = word + pig
-else:
-    new = word[1:] + first + pig
+def combine_text():
+	finished_text = ""
+	for i in range(0, len(pig_latin_list)):
+		finished_text += pig_latin_list[i]
+		finished_text += " "
 
-print new
+	print finished_text
+
+pigify()
+combine_text()
