@@ -1,15 +1,18 @@
-# -*- coding: cp1252 -*-
-# Fibonacci Sequence – Enter a number and have the
-# program generate the Fibonacci sequence to that number
-# or to the Nth number
+#fibonnaci sequence
+def find_fibo():
+	while fibo_list[-1] < input_number:
+		new_number = fibo_list[-2] + fibo_list[-1]
+		if input_number >= new_number:
+			fibo_list.append( new_number )
+			find_fibo()
+		else:
+			return
 
-n = int(raw_input('How many numbers do you need? '))
-series = [1]
+input_number = int( raw_input("Please input a number: ") )
 
-while len(series) < n:
-    if len(series) == 1:
-        series.append(1)
-    else:
-        series.append(series[-1] + series[-2])
+fibo_list = [0,1]
 
-print series
+find_fibo()
+
+print fibo_list
+
