@@ -1,4 +1,4 @@
-Sunwoo's Mega Project List
+Sunwoo's Mega Project List (Python)
 ========
 
 Trying to complete all projects from [Martyr2’s Mega Project List](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/).
@@ -8,7 +8,6 @@ Trying to complete all projects from [Martyr2’s Mega Project List](http://www.
 Some details:
 
 * I will use Python to solve these. Why? Because I want to learn the language quickly.
-* I have no interest in making games, so I'm excluding those from the list below.
 * The projects will not be made in the order posted.
 * I may not be able to complete all of them. 
 * My method of solving them may not be the best.
