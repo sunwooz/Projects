@@ -1,12 +1,11 @@
-"""
-Check if Palindrome - Checks if the string entered
-by the user is a palindrome. That is that it reads
-the same forwards as backwards like "racecar"
-"""
+# Check if Palindrome - Checks if the string entered
+# by the user is a palindrome. That is that it reads
+# the same forwards as backwards like "racecar"
 
-string = raw_input('Enter a string: ').lower()
 
-if string == string[::-1]:
-    print '%s is a palindrome' % string
+input_text = raw_input("Type in one word. ")
+
+if input_text[::-1] == input_text:
+	print "This word is a palindromic word."
 else:
-    print '%s is not a palindrome' % string
+	print "This word is not a palindromic word."
