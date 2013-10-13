@@ -19,6 +19,8 @@ I will link to each project that I complete. Some will be in this same repo, som
 Numbers
 ---------
 
+[** Range Set **](https://github.com/sunwooz/Projects/blob/master/Numbers/range_set.py) - Combine the range of pairs into non-repeating pairs.
+
 **Find PI to the Nth Digit** – Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
 
 [**Fibonacci Sequence**](https://github.com/sunwooz/Projects/blob/master/Numbers/fibonacci.py) – Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
