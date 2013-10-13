@@ -93,8 +93,12 @@ Algorithms
 
 [**Bubble Sort**](https://github.com/sunwooz/Projects/blob/master/Algorithms/bubblesort.py) - Implement bubblesort.
 
-[**Binary Search**](https://github.com/sunwooz/Projects/blob/master/Algorithms/binary_search.py) - Implement Binary Search
+[**Binary Search**](https://github.com/sunwooz/Projects/blob/master/Algorithms/binary_search.py) - Implement Binary Search.
 
+Data Structures
+---------------
+
+[**Binary Tree**](https://github.com/sunwooz/Projects/blob/master/DataStructures/binary_tree.py) - Implement a binary tree.
 
 Networking
 ---------
