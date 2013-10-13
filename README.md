@@ -93,6 +93,8 @@ Text
 Algorithms
 ----------
 
+[** Sort String with ASCII **](https://github.com/sunwooz/Projects/blob/master/Algorithms/sortlist.py) - Sort list of strings using ASCII.
+
 [**Bubble Sort**](https://github.com/sunwooz/Projects/blob/master/Algorithms/bubblesort.py) - Implement bubblesort.
 
 [**Binary Search**](https://github.com/sunwooz/Projects/blob/master/Algorithms/binary_search.py) - Implement Binary Search.
