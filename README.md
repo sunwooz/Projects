@@ -19,7 +19,7 @@ I will link to each project that I complete. Some will be in this same repo, som
 Numbers
 ---------
 
-[** Range Set **](https://github.com/sunwooz/Projects/blob/master/Numbers/range_set.py) - Combine the range of pairs into non-repeating pairs.
+[**Range Set**](https://github.com/sunwooz/Projects/blob/master/Numbers/range_set.py) - Combine the range of pairs into non-repeating pairs.
 
 **Find PI to the Nth Digit** – Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
 
@@ -93,7 +93,7 @@ Text
 Algorithms
 ----------
 
-[** Sort String with ASCII **](https://github.com/sunwooz/Projects/blob/master/Algorithms/sortlist.py) - Sort list of strings using ASCII.
+[**Sort String with ASCII**](https://github.com/sunwooz/Projects/blob/master/Algorithms/sortlist.py) - Sort list of strings using ASCII.
 
 [**Bubble Sort**](https://github.com/sunwooz/Projects/blob/master/Algorithms/bubblesort.py) - Implement bubblesort.
 
@@ -104,7 +104,7 @@ Data Structures
 
 [**Binary Tree**](https://github.com/sunwooz/Projects/blob/master/DataStructures/binary_tree.py) - Implement a binary tree.
 
-[** Stacks **](https://github.com/sunwooz/Projects/blob/master/DataStructures/stack.py) - Implement Stacks.
+[**Stacks**](https://github.com/sunwooz/Projects/blob/master/DataStructures/stack.py) - Implement Stacks.
 
 Networking
 ---------
