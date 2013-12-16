@@ -179,6 +179,8 @@ Classes
 Threading
 ---------
 
+[**Threading I/O Speed Test**](https://github.com/sunwooz/Projects/blob/master/Threading/threadingtest.py) - Tested if threading actually improves I/O time.
+
 **Create A Progress Bar for Downloads** – Create a progress bar for applications that can keep track of a download in progress. The progress bar will be on a separate thread and will communicate with the main thread using delegates.
 
 **Download Manager** – Allow your program to download various files and each one is downloading in the background on a separate thread. The main thread will keep track of the other thread’s progress and notify the user when downloads are completed.
